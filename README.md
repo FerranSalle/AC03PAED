@@ -45,7 +45,7 @@ comptaImparells([1,2,3,4,5])
 Per executar el programa, ho podem fer de dues maneres:
 Les següents ordes, s'han d'executar dins del direcori del programa
 
-Docker:
+Docker Compose:
 
 Abans d'executar-ho, cal cambiar la ruta del [docker-compose.yml](https://github.com/FerranSalle/AC03PAED/blob/master/docker-compose.yml) (linia 6)
 ```bash
@@ -55,3 +55,10 @@ Windows,Linux,Mac:
 ```bash
 deno run index.ts
 ```
+
+Docker:
+
+Executa un script bash que executa docker eliminant automaticament el contenidor un cop ha acabat la seva execusió
+```bash
+bash start.sh
+````
