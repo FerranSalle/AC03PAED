@@ -3,11 +3,10 @@
  * @param a
  * @param binari opcional
  */
-export function aBinari(a: number, binari?: [number]): string {
+export function aBinari(a: number, binari: number[] = [0]): string {
     if (a < 0) {
         throw Error(`${a}  must be >0`);
     }
-    if (binari === undefined) binari = [0]
     const b = a % 2;
     binari.push(b);
     if (a > 0) {
@@ -23,8 +22,7 @@ export function aBinari(a: number, binari?: [number]): string {
  * @param x
  * @param swaped
  */
-function swapBinary(arr: [number], x: number, swaped?: string): string {
-    swaped === undefined ? swaped = '' : swaped;
+function swapBinary(arr: number[], x: number, swaped: string=''): string {
     if (x > 0) {
         swaped += arr[x];
         return `${swapBinary(arr, x - 1, swaped)}`
