@@ -16,6 +16,7 @@ export function aBinari(a: number, binari?: [number]): string {
         return swapBinary(binari, binari.length - 2);
     }
 }
+
 /**
  * Function to swap array of int and return string
  * @param arr

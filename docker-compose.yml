@@ -5,4 +5,4 @@ services:
     volumes:
       - C:\Users\ferra\WebstormProjects\AC03_ferran.castane:/app
     working_dir: /app
-    command: deno run --allow-read index.ts
+    command: deno run /app/index.ts
