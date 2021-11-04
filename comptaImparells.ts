@@ -7,9 +7,7 @@ export function comptaImparells(arr: number[], end: number): number {
         if (arr[end] % 2 === 0) {
             return comptaImparells(arr, end - 1);
         }
-    } else {
-        return 0;
     }
-    return comptaImparells(arr, end - 1);
+    return 0;
 }
 
