@@ -5,7 +5,8 @@ Programa fet amb [Deno](https://deno.land/) ([TypeScript](https://www.typescript
 1. Elevar un número a la n
 2. Passar un número de decimal a binari
 3. Comptar quantes vegades hi ha un número impar a un array d'enters
-
+## IDE
+S'ha utilitzat [WebStorm](https://www.jetbrains.com/es-es/webstorm/) per com a entorn de desenvolupament, concretament, la versió 2021.2.3
 ## Installation
 [Deno](https://deno.land/#installation)
 
@@ -45,7 +46,7 @@ comptaImparells([1,2,3,4,5])
 Per executar el programa, ho podem fer de dues maneres:
 Les següents ordes, s'han d'executar dins del direcori del programa
 
-Docker Compose:
+[Docker Compose](https://docs.docker.com/compose/):
 
 Abans d'executar-ho, cal cambiar la ruta del [docker-compose.yml](https://github.com/FerranSalle/AC03PAED/blob/master/docker-compose.yml) (linia 6)
 ```bash
@@ -56,7 +57,7 @@ Windows,Linux,Mac:
 deno run index.ts
 ```
 
-Docker:
+[Docker](https://www.docker.com/):
 
 Executa un script bash que executa docker eliminant automaticament el contenidor un cop ha acabat la seva execusió
 ```bash
